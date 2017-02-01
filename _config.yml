@@ -21,15 +21,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chinclow
 github_username:  cclow
+google_analytics: UA-91250412-1
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 theme: minima
-highlighter: pygments
+highlighter: rouge
 kramdown:
   input: GFM
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 exclude:
   - Gemfile

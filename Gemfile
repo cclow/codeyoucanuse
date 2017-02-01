@@ -20,9 +20,6 @@ gem "minima", "~> 2.0"
 
 gem "rouge"
 
-gem "redcarpet"
-gem "pygments.rb"
-
 # If you have any plugins, put them here!
 # group :jekyll_plugins do
    # gem "jekyll-feed", "~> 0.6"

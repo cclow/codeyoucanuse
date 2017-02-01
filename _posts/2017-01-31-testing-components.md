@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Testing Angular 2+ Components the Right Way
+title: Testing Angular 2+ Components The Right Way
 ---
 Most Angular 2+ testing tutorials (including the official tutorial on angular.io) recommends
 the wrong way to test Components.
