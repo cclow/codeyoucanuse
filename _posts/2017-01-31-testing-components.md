@@ -43,7 +43,7 @@ the following would still pass the test as specified above.
 ### The Right Way
 
 To test Angular 2+ Components correctly,
-we should consider the component as a black box during testing.
+we should treat the component as a black box during testing.
 
 In other words, our tests must be written without knowledge or assumption
 of the component's internal implementation details.
@@ -62,7 +62,7 @@ all these types of public interfaces:
 
 {% gist cclow/44ac8952fcc2416197f62ae963c9797e article.component.ts %}
 
-All the fields and methods are `private`
+We declare all the fields and methods are `private`
 to enforce this strict encapsulation.
 
 To test `ArticleComponent`, we start with a mock parent component that
