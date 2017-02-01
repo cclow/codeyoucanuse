@@ -2,7 +2,7 @@
 layout: post
 title: Testing Angular 2+ Components The Right Way
 ---
-Most Angular 2+ testing tutorials (including the official tutorial on angular.io) recommends
+Most Angular 2+ testing tutorials (including the official tutorial on angular.io) recommend
 the wrong way to test Components.
 
 Consider the following component:
@@ -13,8 +13,9 @@ and its test code:
 
 {% gist cclow/44ac8952fcc2416197f62ae963c9797e sut.component.spec.ts %}
 
-The test code reaches into the component to modify the value of `title`.
-This is problematic in a few ways.
+The test code reaches into the component to modify the value of `title` as you would find
+in most tutorials.
+This is problematic in at least a couple of ways.
 
 #### Problem 1: The test is fragile, and can break even when the implementation is correct.
 
@@ -43,11 +44,9 @@ the following would still pass the test as specified above.
 ### The Right Way
 
 To test Angular 2+ Components correctly,
-we should treat the component as a black box during testing.
-
-In other words, our tests must be written without knowledge or assumption
+our tests must be written without knowledge or assumption
 of the component's internal implementation details.
-Tests must be written to test a component's public interfaces and contracts and *only* 
+In other words, tests must be written to test a component's public interfaces and contracts and *only* 
 its public interfaces and contracts.
 
 A well-encapsulated component can have the following types of public interfaces:
@@ -57,7 +56,8 @@ A well-encapsulated component can have the following types of public interfaces:
 * Interactions with models, business logic, and external systems through 
 dependency-injected services
 
-Now consider the following component that contains
+To illustrate the correct way to test Angular 2+ Components,
+consider the following component `ArticleComponent` that contains
 all these types of public interfaces:
 
 {% gist cclow/44ac8952fcc2416197f62ae963c9797e article.component.ts %}
@@ -65,20 +65,20 @@ all these types of public interfaces:
 We declare all the fields and methods are `private`
 to enforce this strict encapsulation.
 
-To test `ArticleComponent`, we start with a mock parent component that
+To test `ArticleComponent`, we start by creating a mock parent component that
 binds to the properties and events of `ArticleComponent`, 
-and a mock instance `ArticlesService`:
+and a mock instance of `ArticlesService`:
 
 {% gist cclow/44ac8952fcc2416197f62ae963c9797e article.component.spec.0.ts %}
 
 We instantiate the `TestParent` component instead of `ArticleComponent`, and then
 extract the test fixture from the `TestParent` fixture.
 
-We use dependency injection to inject `mockArticlesService` as a provider
-for `ArticlesService`, and then use `jasmine`'s `spyOn` to spy on this
-mock service instance.
-Note that `spyOn` must not be called on `mockArticlesService`, but we must
-`spyOn` the injected instance which we get from `TestBed`.
+To test the interactions between `ArticleComponent` and `ArticlesService`,
+`mockArticlesService` is injected as a provider for `ArticlesService`.
+We then spy on this mock service instance using `jasmine`'s `spyOn`.
+
+Note that `spyOn` must not be called on `mockArticlesService` that we get from `TestBed`.
 
 {% gist cclow/44ac8952fcc2416197f62ae963c9797e article.component.spec.1.ts %}
 
