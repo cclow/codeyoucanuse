@@ -12,11 +12,11 @@ layout: default
     {{ content }}
   </div>
 
-  {% if site.disqus.shortname %}
-    {% include disqus_comments.html %}
-  {% endif %}
-
   {% if jekyll.environment == 'production' %}
   {% include signup_form.html %}
+  {% endif %}
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
   {% endif %}
 </article>
