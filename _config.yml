@@ -38,3 +38,4 @@ exclude:
 
 gems:
   - jekyll-gist
+  - jekyll-seo-tag

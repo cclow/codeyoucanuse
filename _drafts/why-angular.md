@@ -9,6 +9,8 @@ to understand the reasons for this complexity and some mitigation strategies.
 
 ### Angular Is A Comprehensive Single-Page Application Framework
 
+When comparing
+
 To implement a reasonably complete single-page web application, a framework needs building blocks for handling:
 * Views: specifically the rendering of displays and management of behaviors in response to interaction events;
 * Shared Providers: for management of common states, shared logic, and backend connectivity;
