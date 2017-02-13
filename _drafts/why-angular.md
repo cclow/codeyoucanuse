@@ -2,14 +2,18 @@
 layout: post
 title: Why Angular Is Complex And Why It's OK
 ---
-Complexity is a common complaint about the Angular[^naming] framework,
-especially when compared to other comparable modern web app development libraries and frameworks.
-While I would not argue that Angular 2+ is less complex than ReactJS or Vue.js, I think it is important
-to understand the reasons for this complexity and some mitigation strategies.
+The Angular[^naming] framework is often criticised for its steeper learning curve,
+especially when compared to other modern web app development libraries and frameworks.
+While this is somewhat true,
+it is important understand the context of Angular's higher complexity.
 
 ### Angular Is A Comprehensive Single-Page Application Framework
 
-When comparing
+The most obvious difference is that Angular is a comprehensive framework
+while comparable libraries such as ReactJS and Vue.js are view libraries,
+just one building block in the Angular architecture.
+
+
 
 To implement a reasonably complete single-page web application, a framework needs building blocks for handling:
 * Views: specifically the rendering of displays and management of behaviors in response to interaction events;
