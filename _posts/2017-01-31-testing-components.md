@@ -73,9 +73,8 @@ all these types of public interfaces:
 
 {% gist cclow/44ac8952fcc2416197f62ae963c9797e article.component.ts %}
 
-You can see that we declare all the fields and methods as `private`.
-This would not affect the application,
-and it helps enforcing the strict encapsulation during development.
+~~You can see that we declare all the fields and methods as `private`.~~
+~~This would not affect the application, and it helps enforcing the strict encapsulation during development.~~ (Update 2017-04-19: Private fields are no longer accepted for production build. However, to preserve modularity, fields should not be accessed directly from outside its component.)
 
 To test `ArticleComponent`, we start by creating a mock parent component that
 binds to the properties and events of `ArticleComponent`. 
