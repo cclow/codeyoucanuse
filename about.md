@@ -3,13 +3,9 @@ layout: page
 title: About
 permalink: /about/
 ---
-
 Articles and resources on pragmatic codes and development practices to help you 
 build great products.
-
-
 ### About me
-
 My first computer was the Apple II Plus in 1981, and I've been programming ever since.
 In these more than three decades, I've worked with many programming languages[^1], worked in,
 led, and managed development teams and companies.
