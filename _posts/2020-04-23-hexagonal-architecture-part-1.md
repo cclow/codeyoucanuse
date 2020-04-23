@@ -9,9 +9,9 @@ Using Hexagonal Architecture can vastly improve your code, but it is seldom well
 
 This is the first article of a 4 part series explaining Hexagonal Architecture and how to implement such an architecture using Spring Boot and TDD. Since TDD is a process and difficult to describe in a static medium like an article, I'm also putting together some coding screencasts that should be available shortly.
 
-[Part 1 - Introduction to Hexagonal Architecture and Key Concepts](/2020/04/23/hexagonal-architecture-using-spring-boot-part-1.html)
+[Part 1 - Introduction to Hexagonal Architecture and Key Concepts](/2020/04/23/hexagonal-architecture-part-1.html)
 
-[Part 2 - Coding demo project and implementation of the API adaptor](/2020/04/23/hexagonal-architecture-using-spring-boot-part-2.html)
+[Part 2 - Coding demo project and implementation of the API adaptor](/2020/04/23/hexagonal-architecture-part-2.html)
 
 Part 3 - Implementation of Domain Services (in preparation)
 
