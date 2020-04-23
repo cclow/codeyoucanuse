@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Introduction and Key Concepts (Hexagonal Architecture — Part 1)
+title: Introduction and Key Concepts (Hexagonal Architecture with Spring Boot — Part 1)
+redirect_from:
+  - /2020/04/23/hexagonal-architecture-using-spring-boot-part-1.html
 ---
 
 ## Introduction to Hexagonal Architecture and Key Concepts

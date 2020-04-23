@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Coding demo project and implementation of the API adaptor  (Hexagonal Architecture — Part 2)
+title: Coding demo project and implementation of the API adaptor  (Hexagonal Architecture with Spring Boot — Part 2)
+redirect_from:
+  - /2020/04/23/hexagonal-architecture-using-spring-boot-part-2.html
 ---
 
 This is the second article of a 4 part series explaining Hexagonal Architecture and how to implement such an architecture using Spring Boot and TDD.

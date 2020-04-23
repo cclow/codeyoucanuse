@@ -39,3 +39,4 @@ exclude:
 gems:
   - jekyll-gist
   - jekyll-seo-tag
+  - jekyll-redirect-from
