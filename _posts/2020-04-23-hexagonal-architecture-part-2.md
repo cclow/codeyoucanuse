@@ -15,6 +15,9 @@ Part 3 - Implementation of Domain Services (in preparation)
 
 Part 4 - Implementation of a MongoDB repository adaptor and REST adaptor to an external data source (in preparation)
 
+*Update: The corresponding video is live on YouTube now*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/obd38-EM_KE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Spring Framework
 
 Using the Spring Framework and its projects does not guarantee the hexagonal architecture or any good architecture. However, it is designed with the modularisation and dependency support consistent with hexagonal architecture.
