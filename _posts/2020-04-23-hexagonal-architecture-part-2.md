@@ -5,15 +5,17 @@ redirect_from:
   - /2020/04/23/hexagonal-architecture-using-spring-boot-part-2.html
 ---
 
-This is the second article of a 4 part series explaining Hexagonal Architecture and how to implement such an architecture using Spring Boot and TDD.
+This is the second article of a <s> 4 </s> 5 part series explaining Hexagonal Architecture and how to implement such an architecture using Spring Boot and TDD.
 
 [Part 1 - Introduction to Hexagonal Architecture and Key Concepts](/2020/04/23/hexagonal-architecture-part-1.html)
 
 [Part 2 - Coding demo project and implementation of the API adaptor](/2020/04/23/hexagonal-architecture-part-2.html)
 
-Part 3 - Implementation of Domain Services (in preparation)
+[Part 3 - Implementation of Domain Services](/2020/04/27/hexagonal-architecture-part-3.html)
 
-Part 4 - Implementation of a MongoDB repository adaptor and REST adaptor to an external data source (in preparation)
+[Part 4 - Implementation of MongoDB repository adaptor](/2020/04/27/hexagonal-architecture-part-4.html)
+
+[Part 5 - Implementation of REST adaptor to an external data source](/2020/04/27/hexagonal-architecture-part-5.html)
 
 *Update: The corresponding video is live on YouTube now*
 <iframe width="560" height="315" src="https://www.youtube.com/embed/obd38-EM_KE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -61,4 +63,6 @@ And the corresponding REST Controller
 
 Noted that the DTO for the response body, `GetStockPositionAndMarketValueApiResponseDto` has a long specific name. This is intentional as this DTO is specifically for this API endpoint. Unless clearly intended and specified in the API specs, *using the same DTO for different responses is unnecessary coupling*.
 
-Continue to Part 3 (in preparation)
+[Back to Part 1](/2020/04/23/hexagonal-architecture-part-1.html)
+
+[Continue to Part 3](/2020/04/27/hexagonal-architecture-part-3.html)

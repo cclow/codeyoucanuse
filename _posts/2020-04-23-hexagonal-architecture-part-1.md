@@ -9,15 +9,17 @@ redirect_from:
 
 Using Hexagonal Architecture can vastly improve your code, but it is seldom well explained and rarely demonstrated.
 
-This is the first article of a 4 part series explaining Hexagonal Architecture and how to implement such an architecture using Spring Boot and TDD. Since TDD is a process and difficult to describe in a static medium like an article, I'm also putting together some coding screencasts that should be available shortly.
+This is the first article of a <s> 4 </s> 5 part series explaining Hexagonal Architecture and how to implement such an architecture using Spring Boot and TDD.
 
 [Part 1 - Introduction to Hexagonal Architecture and Key Concepts](/2020/04/23/hexagonal-architecture-part-1.html)
 
 [Part 2 - Coding demo project and implementation of the API adaptor](/2020/04/23/hexagonal-architecture-part-2.html)
 
-Part 3 - Implementation of Domain Services (in preparation)
+[Part 3 - Implementation of Domain Services](/2020/04/27/hexagonal-architecture-part-3.html)
 
-Part 4 - Implementation of a MongoDB repository adaptor and REST adaptor to an external data source (in preparation)
+[Part 4 - Implementation of MongoDB repository adaptor](/2020/04/27/hexagonal-architecture-part-4.html)
+
+[Part 5 - Implementation of REST adaptor to an external data source](/2020/04/27/hexagonal-architecture-part-5.html)
 
 ### Some History
 
