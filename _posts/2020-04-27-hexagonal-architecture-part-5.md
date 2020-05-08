@@ -15,6 +15,9 @@ This is the fourth article of a <s> 4 </s> 5 part series explaining Hexagonal Ar
 
 [Part 5 - Implementation of REST adaptor to an external data source](/2020/04/27/hexagonal-architecture-part-5.html)
 
+Part 2 of the video is live now:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnGuWh-jDAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### REST Adapter for Stock Market Price
 
 To complete the service, the last interface to implement is `GetStockMarketPricePort` for retrieving the market price of the stock. We will use the free service form [AlphaVantage](https://www.alphavantage.co/documentation/) for this.
@@ -66,6 +69,7 @@ You can download the full source code is in [this Github repository](https://git
 There's also a two part screencast to walk through the development process. Screencast 1 is here
 <iframe width="560" height="315" src="https://www.youtube.com/embed/obd38-EM_KE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Screencast 2 is coming soon.
+Screencast 2
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnGuWh-jDAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Back to Part 4](/2020/04/27/hexagonal-architecture-part-4.html)

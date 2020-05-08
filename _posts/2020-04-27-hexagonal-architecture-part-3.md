@@ -15,6 +15,9 @@ This is the third article of a <s> 4 </s> 5 part series explaining Hexagonal Arc
 
 [Part 5 - Implementation of REST adaptor to an external data source](/2020/04/27/hexagonal-architecture-part-5.html)
 
+Part 2 of the video is live now:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnGuWh-jDAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Domain Services
 
 At the end of implementing the REST API adaptor, we have mocked out two domain services `GetStockPositionService` and `GetStockMarketValueService`.

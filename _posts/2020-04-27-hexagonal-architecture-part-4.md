@@ -15,6 +15,9 @@ This is the fourth article of a <s> 4 </s> 5 part series explaining Hexagonal Ar
 
 [Part 5 - Implementation of REST adaptor to an external data source](/2020/04/27/hexagonal-architecture-part-5.html)
 
+Part 2 of the video is live now:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NnGuWh-jDAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Data Repository using MongoDB
 
 Next we'll implement the data repository required by domain service `GetStockPositionService`, as specified by the interface `StockPositionsRepository`.
