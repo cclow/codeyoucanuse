@@ -12,9 +12,13 @@ Being a programmer (or software engineer, if you want to sound fancier) was not 
 
 Probably the most obvious reason is that I am a nerd and I suspect that you as a readers of this blog are a nerd too. Acquiring new knowledge and learning new skills has always given us immense satisfaction[^skills].
 
-There's also the utility we get from knowing how to code.
+I learned about how a computer work through C, OOP through C++ and later Java, functional programming and closures from Lisp and Scheme, logic programming through Prolog, dependency injection and aspect programming from Spring. From Ruby on Rails, I learned about convention over configuration, importance of testing framework, domain specific languages, DB migration, and DRY. And I find fascination in  current developments in distributed architectures, containerisation, dev-ops, microservices, service orchestration, service meshes, server-less computing, CI/CD, and so on.
 
-Coding is a powerful skill, and lets you create powerful tools. You can write code to analyse data, to simulate scenarios to understand their implications. You can write algorithms to automate securities trading, and code to back-test and analyse these strategies to find the winning one. You can customise how your services, applications, and tools work, and to make them do new things, to get the most out of them. You can make systems work together to compose more powerful capabilities and automations.
+Not that we should use all the latest-and-greatest shiny objects, but we have an ever expanding palette of tools and new understanding that can help us improve the quality of what we do.
+
+We can also build powerful, useful tools with code.
+
+You can write code to analyse data, to simulate scenarios to understand their implications. You can write algorithms to automate securities trading, and code to back-test and analyse these strategies to find the winning one. You can customise how your services, applications, and tools work, and to make them do new things, to get the most out of them. You can make systems work together to compose more powerful capabilities and automations.
 
 It's like you have multiple workers following exactly your instructions. For your work and personal use.
 
