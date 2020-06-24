@@ -248,3 +248,5 @@ Like `refCount()`, you can specify a minimum subscriber count for `autoConnect()
 
 You can also watch a screencast of this tutorial.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iT2zQ1jcqoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Continue to Part 3](/2020/06/24/writing-better-code-with-reactor-3-part-3.html)

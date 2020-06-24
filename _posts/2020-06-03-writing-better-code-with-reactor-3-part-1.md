@@ -222,4 +222,4 @@ We can also generate an indefinite sequence of Long values (incrementally from 0
 You can also watch a screencast of this tutorial.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CNixJry9waw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Continue to part 2](/2020/06/24/writing-better-code-with-reacotr-3-part-2.html)
+[Continue to part 2](/2020/06/24/writing-better-code-with-reactor-3-part-2.html)
