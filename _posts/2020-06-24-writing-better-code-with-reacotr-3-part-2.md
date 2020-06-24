@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Writing Better Code with Reactor 3
+title: Writing Better Code with Reactor 3 - Part 2
 ---
-### Part 2 Hot and Cold Publishers, ConnectableFlux 
+### Hot and Cold Publishers, ConnectableFlux 
 Broadly speaking, there are 2 types of publishers: 
 
 1. Cold publishers which starts anew for each subscriber. 
